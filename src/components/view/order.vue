@@ -1,0 +1,219 @@
+<template>
+    <div><div class="order-contain">
+      <div class="order-header">
+        <a href="javascript:back();">
+          <img src="http://virtto.cn/virtto-mobile/image/back.png" alt="">
+        </a>
+        <h5>我的订单</h5>
+        <a href="#">
+          <img src="http://virtto.cn/virtto-mobile/image/more.png" alt="">
+        </a>
+      </div>
+      <div class="order-nav">
+        <a href="#" onclick="select(this)" class="active">全部</a>
+        <a href="#" onclick="select(this)">待付款</a>
+        <a href="#" onclick="select(this)">已付款</a>
+        <a href="#" onclick="select(this)">待评价</a>
+      </div>
+      <div class="order-all">
+        <div class="order-list">
+          <div class="order-list-head">
+            <div class="order-img">
+              <img src="http://virtto.cn/virtto-mobile/image/7.jpeg" alt="">
+            </div>
+            <div class="order-detail">
+              <div class="order-title">
+                <h5>上海黄浦江游轮定制旅游路线</h5>
+                <p>￥280</p>
+              </div>
+              <div class="order-hot">
+                <div class="star-icon">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                </div>
+                <p>人气热度</p>
+              </div>
+              <div class="order-date">
+                <span>消费时间：</span>
+                <span>2019-01-01</span>
+              </div>
+              <div class="order-label">
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+              </div>
+            </div>
+          </div>
+          <div class="reservation-date">
+            <span>预约时间：</span>
+            <span>2019-01-01</span>
+          </div>
+          <div class="order-list-bottom">
+            <div class="right">
+              <img src="http://virtto.cn/virtto-mobile/image/money.png" alt="">
+              <span>已付款</span>
+            </div>
+            <div class="operation-group">
+              <button>删除订单</button>
+              <button>查看订单</button>
+              <button class="special">再次购买</button>
+            </div>
+          </div>
+        </div>
+        <div class="order-list">
+          <div class="order-list-head">
+            <div class="order-img">
+              <img src="http://virtto.cn/virtto-mobile/image/7.jpeg" alt="">
+            </div>
+            <div class="order-detail">
+              <div class="order-title">
+                <h5>上海黄浦江游轮定制旅游路线</h5>
+                <p>￥280</p>
+              </div>
+              <div class="order-hot">
+                <div class="star-icon">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                </div>
+                <p>人气热度</p>
+              </div>
+              <div class="order-date">
+                <span>消费时间：</span>
+                <span>2019-01-01</span>
+              </div>
+              <div class="order-label">
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+              </div>
+            </div>
+          </div>
+          <div class="reservation-date">
+            <span>预约时间：</span>
+            <span>2019-01-01</span>
+          </div>
+          <div class="order-list-bottom">
+            <div class="right">
+              <img src="http://virtto.cn/virtto-mobile/image/money.png" alt="">
+              <span>已付款</span>
+            </div>
+            <div class="operation-group">
+              <button>删除订单</button>
+              <button>查看订单</button>
+              <button class="special">再次购买</button>
+            </div>
+          </div>
+        </div>
+        <div class="order-list">
+          <div class="order-list-head">
+            <div class="order-img">
+              <img src="http://virtto.cn/virtto-mobile/image/7.jpeg" alt="">
+            </div>
+            <div class="order-detail">
+              <div class="order-title">
+                <h5>上海黄浦江游轮定制旅游路线</h5>
+                <p>￥280</p>
+              </div>
+              <div class="order-hot">
+                <div class="star-icon">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                </div>
+                <p>人气热度</p>
+              </div>
+              <div class="order-date">
+                <span>消费时间：</span>
+                <span>2019-01-01</span>
+              </div>
+              <div class="order-label">
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+              </div>
+            </div>
+          </div>
+          <div class="reservation-date">
+            <span>预约时间：</span>
+            <span>2019-01-01</span>
+          </div>
+          <div class="order-list-bottom">
+            <div class="right">
+              <img src="http://virtto.cn/virtto-mobile/image/money.png" alt="">
+              <span>已付款</span>
+            </div>
+            <div class="operation-group">
+              <button>删除订单</button>
+              <button>查看订单</button>
+              <button class="special">再次购买</button>
+            </div>
+          </div>
+        </div>
+        <div class="order-list">
+          <div class="order-list-head">
+            <div class="order-img">
+              <img src="http://virtto.cn/virtto-mobile/image/7.jpeg" alt="">
+            </div>
+            <div class="order-detail">
+              <div class="order-title">
+                <h5>上海黄浦江游轮定制旅游路线</h5>
+                <p>￥280</p>
+              </div>
+              <div class="order-hot">
+                <div class="star-icon">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                  <img src="http://virtto.cn/virtto-mobile/image/star.png" alt="">
+                </div>
+                <p>人气热度</p>
+              </div>
+              <div class="order-date">
+                <span>消费时间：</span>
+                <span>2019-01-01</span>
+              </div>
+              <div class="order-label">
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+                <p>双人旅游</p>
+              </div>
+            </div>
+          </div>
+          <div class="reservation-date">
+            <span>预约时间：</span>
+            <span>2019-01-01</span>
+          </div>
+          <div class="order-list-bottom">
+            <div class="right">
+              <img src="http://virtto.cn/virtto-mobile/image/money.png" alt="">
+              <span>已付款</span>
+            </div>
+            <div class="operation-group">
+              <button>删除订单</button>
+              <button>查看订单</button>
+              <button class="special">再次购买</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+</template>
+
+<script>
+export default {
+  name: 'order'
+}
+</script>
+
+<style scoped>
+
+</style>
